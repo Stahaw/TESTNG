@@ -8,6 +8,7 @@ public class Launchtest {
 		System.setProperty("webdriver.chrome.driver", "C:\\ABTO\\ECLIPSE\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.amazon.in/");
+		driver.quit();
 	}
 
 }
